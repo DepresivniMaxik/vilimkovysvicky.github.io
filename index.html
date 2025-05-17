@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vilímkovy svíčky - E-shop</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Vilímkovy svíčky</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Domů</a></li>
+                    <li><a href="#products">Svíčky</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Ruční výroba vonných svíček pro váš domov</h2>
+            <p>Objevte jedinečné svíčky z přírodních materiálů s krásnými vůněmi.</p>
+            <a href="#products" class="btn-primary">Nakupovat nyní</a>
+        </div>
+    </section>
+
+    <section id="products" class="products container">
+        <h2>Naše svíčky</h2>
+        <div class="product-list">
+            <!-- Produkt 1 -->
+            <article class="product-item">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Levandulová svíčka" />
+                <h3>Levandulová svíčka</h3>
+                <p>Relaxační vůně levandule pro klid a pohodu.</p>
+                <span class="price">199 Kč</span>
+                <button class="btn-add" data-product="Levandulová svíčka">Přidat do košíku</button>
+            </article>
+            <!-- Produkt 2 -->
+            <article class="product-item">
+                <img src="https://images.unsplash.com/photo-1526401485004-1ebf61d86a0d?auto=format&fit=crop&w=400&q=80" alt="Vanilková svíčka" />
+                <h3>Vanilková svíčka</h3>
+                <p>Sladká vanilka, která provoní každý prostor.</p>
+                <span class="price">189 Kč</span>
+                <button class="btn-add" data-product="Vanilková svíčka">Přidat do košíku</button>
+            </article>
+            <!-- Produkt 3 -->
+            <article class="product-item">
+                <img src="https://images.unsplash.com/photo-1514516872291-df3a67918b07?auto=format&fit=crop&w=400&q=80" alt="Citrónová svíčka" />
+                <h3>Citrónová svíčka</h3>
+                <p>Osvěžující vůně citronu pro energii a vitalitu.</p>
+                <span class="price">179 Kč</span>
+                <button class="btn-add" data-product="Citrónová svíčka">Přidat do košíku</button>
+            </article>
+            <!-- Produkt 4 -->
+            <article class="product-item">
+                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="Santálová svíčka" />
+                <h3>Santálová svíčka</h3>
+                <p>Teplá dřevitá vůně s nádechem orientu.</p>
+                <span class="price">209 Kč</span>
+                <button class="btn-add" data-product="Santálová svíčka">Přidat do košíku</button>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="contact container">
+        <h2>Kontaktujte nás</h2>
+        <p>Máte dotazy? Napište nám na <a href="mailto:info@vilimkovysvicky.cz">info@vilimkovysvicky.cz</a> nebo zavolejte na +420 123 456 789.</p>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Vilímkovy svíčky. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
